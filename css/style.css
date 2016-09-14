@@ -1,0 +1,79 @@
+/*All page BEGIN*/
+*{
+	/*Position*/
+	margin: 0px;
+   padding: 0px;
+
+   /*Font*/
+   font-family: Roboto, sans-serif;
+	line-height: 1.154em;
+	font-weight: 400;
+   text-decoration: none;
+}
+
+body {
+	/*View*/
+	background: #F1DB62;
+	background: #F1F111;
+	background: #B3FFE1;
+	/*min-width: 1300px;*/
+	height: 768px;
+}
+/*All page END*/
+/*Wrapper BEGIN*/
+#wrapper{
+	margin: 20px auto;
+	width: 1000px;
+	height: 600px;
+	background: white;
+}
+/*Wrapper END*/
+/*Header BEGIN*/
+header {
+
+	margin-bottom: 20px;	
+	width: 100%;
+	height: 120px;
+	background: #F3EED1;
+}
+#DestroyerBar{
+	float: left;
+}
+#BuilderBar{
+	float: right;
+}
+#Nickname{
+	
+	text-align: center;
+	/*Font*/
+   font-family: Arial, sans-serif;
+	line-height: 30px;
+	font-size: 24px;
+	font-weight: 500;
+}
+#userLoggingBox{
+
+}
+.logButton{
+	display: none;
+}
+#Login{
+	
+}
+#SingUp{
+
+}
+/*Header END*/
+/*Main BEGIN*/
+main {
+	margin-bottom: 20px;	
+	width: 100%;
+	height: 120px;
+	background: green;
+}
+/*Main END*/
+/*Footer BEGIN*/
+footer {
+
+}
+/*Footer END*/

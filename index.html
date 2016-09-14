@@ -2,28 +2,56 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="keywords" content="vk, css, practice"/>
-	<title>MyPC components</title>
-	<link rel="stylesheet" href="css/styles.css" />
-	<link rel="shortcut icon" href="images/NONE" type="image/x-icon">
+	<meta name="keywords" content="Builders, Destroyers"/>
 	<title>Builders & Destroyers</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="shortcut icon" href="images/NONE" type="image/x-icon">
+	
 </head>
 <body>
-	<header>
-		<div id="DestroyerBar"></div>
-		<div id="BuilderBar"></div>
-		<div id="Nickname">maxeleron</div>
-	</header>
-	<main>
-		<div id="Rules"></div>
-		<div id="GameEvents"></div>
-		<a id="StartButton"></a>
-	</main>
-	<footer>
-		<div id="Contacts"></div>
-		<div id="Ad"></div>
-		<div id="Buy PRO"></div>
-	</footer>
+	<div id="wrapper">
+		<header>
+			<div id="LevelBar"></div>
+			<div id="DestroyerBar">
+				<span class="damageImg">12</span>
+				<span class="murderTargetImg">5</span>
+			</div>
+			<div id="BuilderBar">
+				<span class="defendImg">23</span>
+				<span class="shadowDefendImg">13</span>
+			</div>
+			<div id="userLoggingBox">
+				<!--If user loggined nickname will be visible-->
+				<div id="Nickname">maxeleron</div>
+				<!--If user unloggined user will be able to login or
+				create new account-->
+				<a id="Login" class="logButton">Login</a>
+				<a id="SignUp" class="logButton">Sign Up</a>
+			</div>
+			
+		</header>
+		<main>
+			<div id="userInfo"></div>
+			<div id="Rules">
+				<p>JavaScript (/ˈdʒɑːvəˌskrɪpt/[5]) is a high-level, dynamic, untyped, and interpreted programming language.[6] It has been standardized in the ECMAScript language specification.[7] Alongside HTML and CSS, it is one of the three core technologies of World Wide Web content production; the majority of websites employ it and it is supported by all modern Web browsers without plug-ins.[6] JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented,[8] imperative, and functional programming styles.[6] It has an API for working with text, arrays, dates and regular expressions, but does not include any I/O, such as networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded.[7] </p>
+				<p>Friendship is a relationship of mutual affection between people.[1] Friendship is a stronger form of interpersonal bond than an association. Friendship has been studied in academic fields such as sociology, social psychology, anthropology, and philosophy. Various academic theories of friendship have been proposed, including social exchange theory, equity theory, relational dialectics, and attachment styles. A World Happiness Database study found that people with close friendships are happier.[2]</p>
+			</div>
+			<div id="GameEvents"></div>
+			<a id="StartAdventuresButton">Start Adventures</a>
+			<a id="StartBuildingButton">Start Building</a>
+		</main>
+		<footer>
+			<div id="Contacts">
+				<ul>
+					<li>E-mail: maxeleron@gmail.com</li>
+					<li>Phone: +380631718155</li>
+					<li>Post index: 19604</li>
+				</ul>
+			</div>
+			<div id="Ad">AD</div>
+			<a id="Buy PRO"></a>
+		</footer>
+	</div>
 </body>
 <script src="js/script.js"></script>
 </html>
