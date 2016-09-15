@@ -10,12 +10,19 @@
 	font-weight: 400;
    text-decoration: none;
 }
+/*c*/
+.textSelectNone{
+	/*Behaviour*/
+	-moz-user-select: none;
+	-khtml-user-select: none; 
+	-webkit-user-select: none;
+	user-select: none;
+}
 
 body {
 	/*View*/
-	background: #F1DB62;
-	background: #F1F111;
 	background: #B3FFE1;
+	background: #EDEEF0;
 }
 /*All page END*/
 /*Wrapper BEGIN*/
@@ -94,10 +101,7 @@ main {
 	width: 200px;
 	height: 60px;
 	/*Behaviour*/
-	-moz-user-select: none;
-	-khtml-user-select: none; 
-	-webkit-user-select: none;
-	user-select: none;
+	cursor: pointer;
 	/*Font*/
 	font-family: Arial, sans-serif;
 	font-size: 24px;
@@ -129,6 +133,15 @@ footer {
 	/*Position*/
 	margin-top: 20px;	
 	padding: 20px 30px;
+	position: absolute;
 }
+.footerElement{
+	position: relative;
+	display: inline;
+	width: calc(100%/3);
+}
+#Contacts{}
+#Ad{}
+#BuyPRO{}
 
 /*Footer END*/
