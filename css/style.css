@@ -16,30 +16,34 @@ body {
 	background: #F1DB62;
 	background: #F1F111;
 	background: #B3FFE1;
-	/*min-width: 1300px;*/
-	height: 768px;
 }
 /*All page END*/
 /*Wrapper BEGIN*/
 #wrapper{
 	margin: 20px auto;
 	width: 1000px;
-	height: 600px;
 	background: white;
 }
 /*Wrapper END*/
 /*Header BEGIN*/
 header {
-
-	margin-bottom: 20px;	
+	/*Propertities*/
 	width: 100%;
 	height: 120px;
+	/*Position*/
+	margin-bottom: 20px;	
 	background: #F3EED1;
 }
 #DestroyerBar{
+	/*View*/
+	/*Font*/
+	/*Position*/
 	float: left;
 }
 #BuilderBar{
+	/*View*/
+	/*Font*/
+	/*Position*/
 	float: right;
 }
 
@@ -48,12 +52,12 @@ header {
 
 }
 #Nickname{
-	text-align: center;
 	/*Font*/
    font-family: Arial, sans-serif;
 	line-height: 30px;
 	font-size: 24px;
 	font-weight: 500;
+	text-align: center;
 }
 	/*Hided if user loggining*/
 .logButton{
@@ -69,39 +73,62 @@ header {
 /*Header END*/
 /*Main BEGIN*/
 main {
-	margin-bottom: 20px;	
+	/*View*/
 	width: 100%;
 	background: #E2E1CF;
+	/*Position*/
+	margin-bottom: 20px;	
 	padding-bottom: 20px;
 }
 #Rules{
-	padding: 40px 30px;
-
+	/*Font*/
 	text-align: justify;
 	text-indent: 15px;
+	/*Position*/
+	padding: 40px 30px;
 }
 /*Buttons at Main BEGIN*/
 .startGameButton{
+	/*Properties*/
 	display: block;
 	width: 200px;
 	height: 60px;
+	/*Behaviour*/
+	-moz-user-select: none;
+	-khtml-user-select: none; 
+	-webkit-user-select: none;
+	user-select: none;
+	/*Font*/
 	font-family: Arial, sans-serif;
-	line-height: 30px;
 	font-size: 24px;
 	font-weight: 500;
 	color: white;
+	line-height: 60px;
+	text-align: center;
+	/*Position*/
 	margin: 20px auto;
 }
 #StartAdventures{
+	/*View*/
 	background: #268A87;
 }
 #StartBuilding{
+	/*View*/
 	background: #137476;
+}
+#StartBuilding:hover{
+	/*View*/
+	background: red;
 }
 /*Buttons at Main END*/
 /*Main END*/
 /*Footer BEGIN*/
 footer {
-
+	/*View*/
+	background: #E2E11F;
+	/*Position*/
+	margin-top: 20px;	
+	padding: 20px 30px;
 }
+
 /*Footer END*/
