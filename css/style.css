@@ -10,7 +10,6 @@
 	font-weight: 400;
    text-decoration: none;
 }
-/*c*/
 .textSelectNone{
 	/*Behaviour*/
 	-moz-user-select: none;
@@ -36,18 +35,22 @@ body {
 header {
 	/*Propertities*/
 	width: 100%;
-	height: 120px;
+	height: 50px;
 	/*Position*/
 	margin-bottom: 20px;	
 	background: #F3EED1;
 }
 #DestroyerBar{
+	/*Propertities*/
+	
 	/*View*/
 	/*Font*/
 	/*Position*/
 	float: left;
 }
 #BuilderBar{
+	/*Propertities*/
+	
 	/*View*/
 	/*Font*/
 	/*Position*/
@@ -116,13 +119,17 @@ main {
 	/*View*/
 	background: #268A87;
 }
-#StartBuilding{
+#StartAdventures:hover{
 	/*View*/
 	background: #137476;
 }
+#StartBuilding{
+	/*View*/
+	background: #268A87;
+}
 #StartBuilding:hover{
 	/*View*/
-	background: red;
+	background: #137476;
 }
 /*Buttons at Main END*/
 /*Main END*/
@@ -131,17 +138,50 @@ footer {
 	/*View*/
 	background: #E2E11F;
 	/*Position*/
-	margin-top: 20px;	
-	padding: 20px 30px;
+	margin-top: 0px;	
 	position: absolute;
+	width: 1000px;
+	height: 80px;
 }
 .footerElement{
+	display: block;
 	position: relative;
-	display: inline;
-	width: calc(100%/3);
+	width: 333.33px;
+	height: 80px;
 }
-#Contacts{}
-#Ad{}
-#BuyPRO{}
+#Contacts{
+	float: left;
+	background: #3494CC;
+}
+#Ad{
+	/*Behaviour*/
+	cursor: pointer;
+	/*Font*/
+	font-size: 40px;
+	line-height: 80px;
+	text-align: center;
+	/*Position*/
+	/*margin-left: 333.33px;*/
+	float: left;
+	background: #E82C0C;
+}
+#Ad:hover{
+	background: #FF540D;
+}
+#BuyPRO{
+	/*View*/
+	background: #FFAC16;
+	/*Behaviour*/
+	cursor: pointer;
+	/*Font*/
+	font-size: 40px;
+	line-height: 80px;
+	text-align: center;
+	/*Position*/
+	float: right;
+}
+#BuyPRO:hover{
+	background: #FFB635;
+}
 
 /*Footer END*/
